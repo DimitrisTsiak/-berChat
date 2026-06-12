@@ -2,18 +2,16 @@
 
 Install all requirements: 
 
-'''
+```
 pip install langchain, chromadb, langchain-google-genai
-'''
+```
 
 Find your google api key and set it as an enviroment variable (e.g. powershell)
 
-'''
+```
 $ENV:GOOGLE_API _KEY = "your_api_key"
-'''
-
+```
 To begin the conversation run 
-
-'''
+```
 python chat.py
-'''
+```
